@@ -55,3 +55,8 @@ p{
         grid-template-columns: 1fr;
     }
 }
+
+.resume-link{
+    text-decoration: underline;
+    margin-top: 1rem;
+}

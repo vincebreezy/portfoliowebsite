@@ -8,6 +8,8 @@ const projectCardData = [
     {
         imgsrc: proj1,
         title: "ErgoMod",
+        heading1: `Tech stack: C, Fusion360, CubeIDE`,
+        heading2: `Skills and components used: STM32, soldering`,
         text: `Collaborated with a team of three members to create an ergonomic controller from scratch, 
         leveraging Fusion360 for design, STM32 Microprocessor for implementation, and CubeIDE for development. 
         Assisted and co-led the design process for the controller shell, PCB components, and ergonomic features, 
@@ -21,6 +23,7 @@ const projectCardData = [
     {
         imgsrc: proj2,
         title: "RBAC SJSU Library",
+        heading1: 'Tech stack: Python, Flask, HTML, CSS, SQLite',
         text: `Developed a Role-Based-Action-Control model for SJSU's Library website, ensuring tailored user 
         roles, verification, and authentication. Implemented robust security measures by employing hash functions
         and utilizing an SQLite database to encrypt and securely store user passwords. This project enhanced 
@@ -33,15 +36,18 @@ const projectCardData = [
     {
         imgsrc: proj5,
         title: "Temperature Reader",
+        heading1: 'Tech stack: C, Code Composer Studio',
+        heading2: "Components used: Texas Instruments MSP432 Launchpad, DHT11, LCD1602",
         text: `Utilized a TI MSP432 Launchpad microcontroller to develop a temperature measurement system with 
         precise LCD1602 screen output. Implemented software using Code Composer Studio (CCS) and CCS's driver 
         library to integrate GPIO pins with RGB LEDs and an LCD screen, providing visual feedback. This project 
         deepened my expertise in microcontroller programming, sensor interfacing, and real-time system design, 
-        showcasing my ability to deliver robust solutions in embedded systems development.` 
+        showcasing my ability to deliver robust solutions in embedded systems development.`,
     },
     {
         imgsrc: proj3,
         title: "Finance Manager",
+        heading1: 'Tech stack: Python, JavaScript, Flask, CSS, ReactJS, SQLite',
         text: `Designed and implemented a full-stack finance managing system with a SCRUM development
         team that allows users to keep track of bank expenses and transactions through one single 
         application. Developed a backend using Python and Flask, a frontend using ReactJS, and SQLite 
@@ -53,6 +59,7 @@ const projectCardData = [
     {
         imgsrc: proj4,
         title: "Egress",
+        heading1: 'Tech stack: Unity2D, C#',
         text: `Collaborated with a team of two programmers and one artist in an Agile development 
         environment to create a mini hack-and-slash adventure game using Unity2D. Implemented player 
         movement, enemy AI, random map generation, and animations using Unity's version of C#. This 

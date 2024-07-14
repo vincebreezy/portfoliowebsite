@@ -10,6 +10,11 @@
     max-width: 600px;
 }
 
+.tech-stack, 
+.skills-components {
+    font-style: italic;
+}
+
 .project-container{
     max-width: 1140px;
     margin: auto;

@@ -38,6 +38,9 @@ const Footer = () => {
                     <NavLink to = "https://github.com/vincebreezy">
                         <FaGithub size = {30} style = {{color: "#fff", marginRight: "1rem" }}/>
                     </NavLink>
+                    <p className="resume-link">
+                        <NavLink to = "https://docs.google.com/document/d/1ixtzF3S_asIBRlqhDvb1G6U0u3E51Eoc5nj0icx0iko/preview">My resume</NavLink>
+                    </p>
                 </div>
             </div>
         </div>

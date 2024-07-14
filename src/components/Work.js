@@ -21,6 +21,8 @@ const Work = () => {
                     key = {ind}
                     imgsrc = {val.imgsrc}
                     title = {val.title}
+                    heading1 = {val.heading1}
+                    heading2 = {val.heading2}
                     text = {val.text}
                     view = {val.view}
                     source = {val.source}
