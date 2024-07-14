@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./index.css"
 import Home from "./routes/Home"
 import About from "./routes/About"
@@ -8,6 +8,10 @@ import Contact from "./routes/Contact"
 import {Route, Routes} from "react-router-dom"
 
 function App() {
+  useEffect(() => {
+    document.title = "Vince Dionisio CMPE CV";
+  }
+)
   return (
     <>
       <Routes>
