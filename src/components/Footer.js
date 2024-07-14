@@ -1,7 +1,7 @@
 import "./FooterStyles.css"
 
 import React from 'react'
-import {FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaSpotify} from "react-icons/fa"
+import {FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone} from "react-icons/fa"
 import { NavLink } from "react-router-dom"
 
 const Footer = () => {
@@ -37,9 +37,6 @@ const Footer = () => {
                     </NavLink>
                     <NavLink to = "https://github.com/vincebreezy">
                         <FaGithub size = {30} style = {{color: "#fff", marginRight: "1rem" }}/>
-                    </NavLink>
-                    <NavLink to = "https://open.spotify.com/user/binzstahp">
-                        <FaSpotify size = {30} style = {{color: "#fff", marginRight: "1rem" }}/>
                     </NavLink>
                 </div>
             </div>
